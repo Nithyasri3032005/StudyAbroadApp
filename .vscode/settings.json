@@ -1,0 +1,14 @@
+{
+  // Exclude node_modules and build folders from Java project import and file search
+  "java.import.exclusions": [
+    "**/node_modules/**"
+  ],
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/build": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true
+  }
+}
